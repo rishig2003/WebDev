@@ -30,6 +30,8 @@ h2{
 header{
 	background-color: #0000FF;
 	background-image: url("C:/Users/Lenovo/Desktop/images/flywheel.jpg") ;
+	background-repeat:no-repeat;
+	background-size:cover;
 	height:110px;
 }
 
