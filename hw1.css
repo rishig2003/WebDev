@@ -80,3 +80,42 @@ img{
 	padding-top: 30px;
 }
 
+table{
+	margin-top:15px;
+	font-family: "Comic Sans MS";
+	width:60%;
+	overflow: auto;
+}
+
+td{
+	background-color: #4eb14e;
+	opacity: 0.6;
+	font-weight: bold;
+	padding:10px 25px 10px 25px;
+	border:2px solid blue;
+}
+
+td:nth-child(2){
+	text-align: center;
+}
+td:nth-child(3){
+	text-align: center;
+}
+
+tr:hover{
+	background-color: #4eb14e;
+	opacity: 1;
+}
+
+th{
+	background-color: #0000FF;
+	background: linear-gradient(#6495ed 0%,#0000FF 100%);
+	padding:10px 25px 10px 25px;
+	color:#FFFFFF;
+	border:solid black;
+	border-radius:10px 10px 0px 0px;
+	border-width: 0px 0px 4px 0px;
+}
+th:nth-child(1){
+	text-align: left;
+}
