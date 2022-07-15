@@ -1,0 +1,187 @@
+ #title{
+	background-color: #ff4c68;
+	color: #FFFFFF;
+}
+
+#title-img{
+	transform: rotate(25deg);
+	position:absolute;
+	right:30%;
+	width: 200px;
+}
+h1{
+	font-family: Montserrat;
+	font-size:3;
+	line-height: 1.5;
+
+}
+
+.container-fluid{
+	padding:3% 15% 7%;
+}
+
+#navbarSupportedContent{
+	position:relative;
+	left:70%;
+}
+ body{
+ 	font-family: Montserrat;
+ }
+
+ .navbar{
+ 	padding-bottom: 4.5rem;
+ 	position: relative;
+ 	right:15% ;
+ }
+
+
+
+ .navbar-brand{
+ 	font-family:Ubuntu;
+ 	font-size: 2.5rem;
+ 	position: relative;
+ 	left:14%;
+
+ }
+
+ .sub{
+ 	text-align:center;
+ 	color:#ef8172;
+ 	margin-bottom:5%;
+ }
+
+ .sub:hover{
+ 	color:#ff4c68;
+ }
+
+ h3{
+ 	font-size: 2 rem;
+ 	
+ }
+
+ #features{
+ 	padding:7% 15%;
+ 	background-color: #ffffff;
+ 	position:relative;
+ 	z-index: 1;
+ }
+
+ .feature-box{
+ 	text-align: center;
+ 	padding:5% ;
+ }
+
+ .desc{
+ 	color:#8f8f8f;
+ 	font-size: 14px;
+ }
+
+ #testimonials{
+ 	padding:7% 15%;
+ 	text-align: center;
+ 	background-color: #ef8172;
+	color: white;
+ }
+
+ .testimonial-image{
+ 	width:10%;
+ 	border-radius: 100%;
+ 	margin:20px;
+ }
+
+ #press{
+ 	background-color:#ef8172;
+ 	text-align: center;
+ 	padding-bottom: 3%;
+
+ }
+
+ .press-logo{
+ 	width:15%;
+ 	margin:20px 20px 50px;
+
+ }
+
+ .tstimonial-txt{
+ 	padding:7%;
+ }
+
+ 
+
+ .details{
+ 	color:#8f8f8f;
+ }
+
+ .btn{
+ 	font-size:1rem;
+ }
+
+#pricing{
+	padding:100px;
+	text-align:center;
+}
+
+.pricing-col{
+	padding:3%;
+
+}
+
+.card-deck{
+	padding-left:23%;
+
+}
+
+#txt{
+	color:#8f8f8f;
+}
+
+@media (max-width: 992px){
+	#title-img{
+		position:static;
+		margin-top:3%;
+		transform: rotate(0deg);
+	}
+
+	#title{
+		text-align:center;
+	}
+}
+
+#cta{
+	background-color:#ff4c68;
+	color:#ffffff;
+	text-align:center;
+}
+
+#cta-head{
+	padding:7% 15%;
+	font-size:3rem;
+	line-height: 1.5;
+}
+
+#footer{
+	text-align:center;
+	margin-top:5%;
+}
+
+#footer-txt{
+	color:#8f8f8f;
+	margin-top:1%;
+}
+
+.footer-icon{
+	margin-right:1%;
+}
+
+.download-button{
+	margin:5% 3% 5% 0%;
+}
+
+.download-buttons{
+	margin-bottom: 8%;
+}
+
+#btn1{
+	margin-right: 1%;
+}
+
